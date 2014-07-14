@@ -1,0 +1,5 @@
+      [paste.app_factory]
+      main = alchemy_scaffold:main
+      [console_scripts]
+      initialize_alchemy_scaffold_db = alchemy_scaffold.scripts.initializedb:main
+      
